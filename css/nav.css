@@ -58,6 +58,7 @@ body {
     
     background: linear-gradient(to right, #363636 , #4a4a4a , #1a1a1a);
     border: none;
+    border-radius: 0px;
 }
 .bar-contacto {
     background: linear-gradient(to right, #e87d1e , #f1ac14);
@@ -66,6 +67,7 @@ body {
     font-size: 0.95em;
     padding: 4px;
     padding-right: 10px;
+    border-radius: 0px;
 }
 .caps a {
     text-transform: uppercase;
@@ -73,6 +75,14 @@ body {
     letter-spacing: 2px;
     font-weight: 600;
     color: #e87d1e;
+    border-left: 1px solid #cacaca;
+    margin: 0 auto;
+    height: 40px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.caps .borde-derecha {
+    border-right: 1px solid #cacaca;
 }
 
 .footer-cs {
@@ -103,4 +113,8 @@ body {
 .calltoaction h6 {
     display: inline-block;
     font-weight: 600;
+}
+
+.maxwith {
+    max-width: 1100px;
 }
