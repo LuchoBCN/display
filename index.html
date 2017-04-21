@@ -39,7 +39,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand tablinks" href="#" onclick="openCity(event, 'somos')"><img id="logo-cs" src="img/cs-logo.png" alt="logo" width="200"></a>
+		<a class="navbar-brand tablinks" href="#" onclick="openCity(event, 'somos')"><img id="logo-cs" src="img/cs-logo.png" alt="logo" width="180"></a>
 	</div>
 	
 	<div class="collapse navbar-collapse js-navbar-collapse">
@@ -56,6 +56,7 @@
 			</li>
 		</ul>
         <ul class="nav navbar-nav navbar-right">
+           <!-- 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle tablinks" data-toggle="dropdown" role="button" aria-expanded="false">Demos <span class="glyphicon glyphicon-eye-open"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -66,6 +67,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>
+            -->
         <!--<li><a href="#">My cart (0) items</a></li>-->
       </ul>
 	</div><!-- /.nav-collapse -->
@@ -242,10 +244,11 @@
 <div class="tabcontent" id="panelistas">
     <div id="panel-myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     
+        <!--
         <ul class="nav nav-pills nav-justified caps">
           <li data-target="#panel-myCarousel" data-slide-to="0"><a href="#"><strong>Paneles a la medida</strong></a></li>
           <li data-target="#panel-myCarousel" data-slide-to="1" class="borde-derecha"><a href="#"><strong>Visivilización</strong></a></li>
-        </ul>
+        </ul>-->
 
 
  
@@ -253,18 +256,8 @@
       <div class="carousel-inner">
       
         <div class="item active">
-          <img src="http://placehold.it/1200x400/cccccc/ffffff">
+          <img src="img/cs_paneles_v1.jpg">
            <div class="carousel-caption">
-            <h3>Headline</h3>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <a href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank" class="label label-danger">Bootstrap 3 - Carousel Collection</a></p>
-          </div>
-        </div><!-- End Item -->
- 
-         <div class="item">
-          <img src="http://placehold.it/1200x400/999999/cccccc">
-           <div class="carousel-caption">
-            <h3>Headline</h3>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <a href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank" class="label label-danger">Bootstrap 3 - Carousel Collection</a></p>
           </div>
         </div><!-- End Item -->
         
@@ -293,10 +286,12 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/nav-control.js"></script>
       <script>
-    var i, tabcontent;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }      </script>
+        var i, tabcontent;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+            }
+          tabcontent[0].style.display = "block";
+      </script>
   </body>
 </html>
