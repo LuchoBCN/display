@@ -59,6 +59,8 @@ body {
     background: linear-gradient(to right, #363636 , #4a4a4a , #1a1a1a);
     border: none;
     border-radius: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 .bar-contacto {
     background: linear-gradient(to right, #e87d1e , #f1ac14);
