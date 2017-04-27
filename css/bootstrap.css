@@ -3986,10 +3986,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   padding: 10px 15px;
 }
-.nav > li > a:hover,
+.nav > li > a:hover {
+    background-color: #eee;
+    text-decoration: none;
+}
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #e87d1e;
+    color: white;
 }
 .nav > li.disabled > a {
   color: #777;
