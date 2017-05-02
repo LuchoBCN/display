@@ -6,7 +6,6 @@ function openCity(evt, cityName) {
     }
 
     document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className = "active";
 }
 
 function openCall(evt, callName) {
@@ -18,5 +17,11 @@ function openCall(evt, callName) {
 
     document.getElementById(callname).style.display = "block";
 }
+    
+    
+
+
+
+
 
 
