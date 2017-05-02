@@ -76,7 +76,6 @@ body {
     font-size: 0.7em;
     letter-spacing: 2px;
     font-weight: 600;
-    color: #e87d1e;
     border-left: 1px solid #cacaca;
     margin: 0 auto;
     height: 40px;
@@ -119,4 +118,13 @@ body {
 
 .maxwith {
     max-width: 1100px;
+}
+
+.activa { 
+    background-color: #e87d1e;
+    color: white;
+}
+.activi { 
+    color: #fff;
+    background-color: #080808;
 }
