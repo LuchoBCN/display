@@ -3986,6 +3986,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 10px 15px;
 }
 .nav > li > a:hover {
+    color: #e87d1e;
     background-color: #eee;
     text-decoration: none;
 }
