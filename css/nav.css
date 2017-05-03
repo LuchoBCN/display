@@ -71,20 +71,34 @@ body {
     padding-right: 10px;
     border-radius: 0px;
 }
+
 .caps a {
-    text-transform: uppercase;
-    font-size: 0.7em;
-    letter-spacing: 2px;
-    font-weight: 600;
-    border-left: 1px solid #cacaca;
-    margin: 0 auto;
-    height: 40px;
-    vertical-align: middle;
-    white-space: nowrap;
+        border-left: 1px solid #cacaca;
+        border-right: 1px solid #cacaca;
 }
-.caps .borde-derecha {
-    border-right: 1px solid #cacaca;
+
+
+@media (min-width: 768px) {
+    .caps a {
+        text-transform: uppercase;
+        font-size: 0.7em;
+        letter-spacing: 2px;
+        font-weight: 600;
+        border-left: 1px solid #cacaca;
+        border-right: 0px solid #cacaca;
+        margin: 0 auto;
+        height: 40px;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    .caps .borde-derecha {
+        border-right: 1px solid #cacaca;
+    }
+    
 }
+
+
+
 
 .footer-cs {
     margin-top: 10px;
