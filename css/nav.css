@@ -119,7 +119,7 @@ body {
     padding: 10px;
     float: right;
 }
-.calltoaction button {
+.calltoaction a {
     text-transform: uppercase;
     font-size: 0.8em;
     letter-spacing: 1px;
