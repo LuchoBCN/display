@@ -34,7 +34,7 @@
 .carousel-control {
   width: 30px;
   height: 30px;
-  top: -35px;
+  top: 100px;
 
 }
 .left.carousel-control {
@@ -56,9 +56,13 @@
     background: linear-gradient(to right, #363636 , #4a4a4a , #1a1a1a);
     border: none;
     border-radius: 0px;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 22px;
+    height: 130px
 }
+
+
+
+
 .bar-contacto {
     background: linear-gradient(to right, #e87d1e , #f1ac14);
     color: white;
@@ -69,31 +73,56 @@
     border-radius: 0px;
 }
 
-.caps a {
-        border-left: 1px solid #cacaca;
-        border-right: 1px solid #cacaca;
+.activa { 
+    background-color: #636363;
+    color: #fff;
 }
 
 
-@media (min-width: 768px) {
-    .caps a {
+
+
+
+.caps a {
         text-transform: uppercase;
         font-size: 0.7em;
         letter-spacing: 2px;
         font-weight: 600;
-        border-left: 1px solid #cacaca;
-        border-right: 0px solid #cacaca;
+
         margin: 0 auto;
-        height: 40px;
-        vertical-align: middle;
+        height: 28px;
         white-space: nowrap;
-    }
-    .caps .borde-derecha {
-        border-right: 1px solid #cacaca;
-    }
-    
+        line-height: 6px;
+        }
+
+
+
+.tabcontent ul {
+    background-color: darkgray;
 }
 
+.tabcontent ul a:hover {
+    background-color: #7e7e7e;
+}
+
+@media (min-width: 768px) {
+    
+    .caps a {
+        border-left: 1px solid #cacaca;
+    }
+    
+    .caps li {
+    border-right: 0px;
+    }
+    .caps li:last-child {
+        border-right: 0px;
+    }
+    .caps li:first-child {
+        border-left: 0px;
+    }
+ 
+
+
+}
 
 
 
@@ -112,9 +141,9 @@
     border-radius: 10px;
 }
 .calltoaction {
-    max-width: 1100px;
+    width: 100%;
+    background-color: #ececec;
     padding: 10px;
-    float: right;
 }
 .calltoaction a {
     text-transform: uppercase;
@@ -122,6 +151,8 @@
     letter-spacing: 1px;
     margin-left: 10px;
 }
+
+
 .calltoaction h6 {
     display: inline-block;
     font-weight: 600;
@@ -131,11 +162,30 @@
     max-width: 1100px;
 }
 
-.activa { 
-    background-color: #e87d1e;
+.tablinks {
+    
+    }
+.activi { 
+background-color: black;
+    z-index: 4;
     color: white;
 }
-.activi { 
-    color: #fff;
-    background-color: #080808;
+.unactivi { 
+background-color: #878686;
+    z-index: 4;
+    color: white;
 }
+
+.activa { 
+    background-color: #606060;
+    color: #fff;
+}
+.unactiva { 
+    background-color: #929292;
+    color: #c9c9c9;
+}
+
+.cabezera {
+    margin-bottom: 28px;
+}
+
