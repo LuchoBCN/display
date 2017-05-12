@@ -89,5 +89,38 @@ $(document).ready( function() {
     
     
     
+    //MODULO PARA ACTUALIZAR EL ACTIVE DE LAS NAV PILLS AL USAR LOS BTN DE NEXT Y PREV
+    
+    //Buscar en div #carousel - bucar el item que está active y sacarle el número de item en el array - darle click al nav pill con el data-slide-to con ese valor. Listo.
+    
+$("[data-slide=next]").click(function(){
+    
+    console.log("le diste click a next");
+    
+    
+    var padre = $(this).parent();
+    var padrename = $(this).parent().attr("class")
+    var index = $(this).parent().find('.active:first').attr("lamina");
+    var indexplus = index + 1;
+    var test = $(padre).find("li[data-slide-to=" + indexplus + "]").attr("data-slide-to");
+    var enlace = $(padre).find("li[data-slide-to=" + indexplus + "]");
+    var link = $(enlace).find('a:first').click();
+    
+    console.log(padrename);
+    console.log(index);
+    console.log(test);  
+    console.log(link);
+    
+//FALTA SABER COMO SUMAR UN AL VALOR DE ENLACE
+    
+    
+});
+    
+    
+    
+    
+    
+    
+    
     
 });
