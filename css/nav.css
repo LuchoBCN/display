@@ -31,25 +31,6 @@
   line-height: 30px;
 }
 
-.carousel-control {
-  width: 30px;
-  height: 30px;
-  top: 100px;
-
-}
-.left.carousel-control {
-  right: 30px;
-  left: inherit;
-}
-.carousel-control .glyphicon-chevron-left, 
-.carousel-control .glyphicon-chevron-right {
-  font-size: 12px;
-  background-color: #fff;
-  line-height: 30px;
-  text-shadow: none;
-  color: #333;
-  border: 1px solid #ddd;
-}
 
 .navbar-inverse {
     
